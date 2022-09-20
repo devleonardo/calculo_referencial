@@ -1,0 +1,83 @@
+html, body{
+    margin: 0;
+    background: #131219;
+    padding: 10px;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.calculadora{
+    width: 100%;
+}
+
+.calculo{
+    position: relative;
+    padding: 10px;
+    background: #fff;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #5B1FA6;
+    font-size: 18px;
+}
+
+span{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #414141;
+}
+
+.somatorio{
+    margin-top: 30px;
+}
+
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 0;
+    letter-spacing: 1px;
+    color: #414141;
+    margin-top: 20px;
+}
+
+.add{
+    color: #5B1FA6;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+input{
+    width: 120px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid #5B1FA6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+output{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0;
+    color: #5B1FA6;
+}
+
+footer{
+    height: 50px;
+    padding: 10px 0 0 0;
+    background: #5B1FA6;
+}
+
+footer>p{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
